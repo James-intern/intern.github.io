@@ -1,0 +1,37 @@
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>Insert Data</title>
+</head>
+<body>
+<h1>Insert Data</h1>
+	<form id="form1" name="form1" method="post" enctype="multipart/form-data">
+		學號: <input type="text" name="txtsch_code" placeholder="sch_code(必填)" /> <br/> <br/> 
+		姓名: <input type="text" name="txtname" placeholder="name(必填)" /> <br/> <br/> 
+		
+		大頭照上傳: <br/> <br/> 
+				
+		<label for="file">Filename:</label>
+		<input type="file" name="file" id="file" /> 
+		<br />
+		<input type="submit" name="submit" value="Submit" />
+		<br/> <br/> 
+
+		電話: <input type="text" name="txtphone" placeholder="phone(選填)" /> <br/> <br/> 
+		email: <input type="text" name="txtemail" placeholder="email(選填)" /> <br/> <br/> 
+		現居住地: <input type="text" name="txtPlace" placeholder="Place(必填,大略即可)" /> <br/> <br/> 
+		工作: <input type="text" name="txtwork" placeholder="work(必填,大略即可)" /> <br/> <br/> 
+		給學弟妹的話: 
+		<br/> <br/> 
+		<textarea rows="5" name="txtto_sch_brosis" cols="20"> 100字以內... </textarea>
+		<br/> <br/> 
+		
+		是否接受系友會訊息: <input type="text" name="txtto_get_info" placeholder="是填1, 否填0" /> <br/> <br/> 
+		other: <input type="text" name="txtother" placeholder="other" /> <br/> <br/> 
+		<input type="submit" value="Insert" /> <br/>
+	</form>
+
+		
+</body>
+</html>
